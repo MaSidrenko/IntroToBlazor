@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "introToADO.NET", "introToADO.NET.csproj", "{C1038BE0-1DE8-A573-341E-6BDAF058188D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1038BE0-1DE8-A573-341E-6BDAF058188D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1038BE0-1DE8-A573-341E-6BDAF058188D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1038BE0-1DE8-A573-341E-6BDAF058188D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1038BE0-1DE8-A573-341E-6BDAF058188D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49CE9A62-F589-424E-9888-957B9894ABA9}
+	EndGlobalSection
+EndGlobal

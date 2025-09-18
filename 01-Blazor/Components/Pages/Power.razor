@@ -1,0 +1,26 @@
+﻿@page "/power"
+@rendermode InteractiveServer
+
+<h3>Power</h3>
+<label for="power">Степень</label>
+<br>
+<input type="number" @bind="pow" onclick="@CalcPower" name="power" size="5" max="@double.MaxValue">
+<div><label for="base">Основание</label></div>
+<input type="number" @bind="bas" onclick="@CalcPower" name="base" size="5">
+<br>
+<br>
+<div>
+    <button onclick="@CalcPower" style="width:85px">Calculate</button>
+    <br>
+    <label style="font-size:24px;">@bas^@pow=@result </label>
+</div>
+
+@code {
+    double pow = 0;
+    double bas = 0;
+    double result;
+    public void CalcPower()
+    {
+        result = Math.Pow(bas, pow);
+    }
+}

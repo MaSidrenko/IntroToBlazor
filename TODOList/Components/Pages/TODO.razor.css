@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+}
+.complete-task {
+  text-decoration: line-through;
+  color: gray;
+}
+.in-process-card {
+  border: 1px solid grey;
+  box-shadow: 0 0 1px 1px gray;
+  border-radius: 15px;
+}
+.task-card {
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+  
+}
+.done-card {
+  border: 1px solid green;
+  box-shadow: 0 0 1px 1px green;
+  border-radius: 15px;
+}
+.task-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  font-size: 25px;
+}

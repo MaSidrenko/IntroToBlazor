@@ -1,0 +1,32 @@
+﻿@page "/fibonachi"
+@using System.Reflection.Emit
+@rendermode InteractiveServer
+
+<h3>Fibonachi</h3>
+<label for="fib">До</label>
+<br>
+<input type="number" name="fib" @bind="fib" @onclick="Fibon" min="0" max="@int.MaxValue" />
+<div style="font-size:20px">
+    <button @onclick="Fibon">Вывести</button>
+    <br>
+    <label>Ряд Фибоначи до @fib элемента: &ThinSpace;</label>
+    <label >@string.Join(" ", fibs)</label>
+    @* <label>@fibs.Select(fibs.ToList()).</label> *@
+    @* @Print() *@
+</div>
+
+@code {
+    int fib = 0;
+    List<long> fibs = new();
+
+
+    void Fibon()
+    {
+            fibs = Enumerable.Range(0, fib).Aggregate(new List<long>(), (list, _) =>
+            {
+                list.Add(_ < 2 ? _ : list[_ - 1] + list[_ - 2]);
+                return list;
+            });
+    }
+
+}

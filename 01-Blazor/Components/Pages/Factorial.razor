@@ -1,0 +1,22 @@
+﻿@page "/factorial"
+@* @using Model.Factorial.Factorial *@
+@rendermode InteractiveServer
+<h3>Factorial</h3>
+
+<input type="number" name="factorial" min="0" max="20" @bind="Model.Factorial.Factorial.n" @onclick="Model.Factorial.Factorial.Calculate" /> <label for="factorial"
+    style="font-size:24px;">@Model.Factorial.Factorial.n != @Model.Factorial.Factorial.factorial</label>
+
+@* @code
+{
+    private long factorial = 1;
+    int n = 0;
+    public void Calculate()
+    { 
+        factorial = 1;
+        for (int i = 1; i <= n; i++)
+        {
+            factorial *= i;
+        }
+        @* return factorial; *@
+    @* } *@
+@* } *@ 
