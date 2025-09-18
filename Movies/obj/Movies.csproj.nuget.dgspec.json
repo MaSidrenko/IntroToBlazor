@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\Movies\\Movies.csproj": {}
+    "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Movies\\Movies.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\Movies\\Movies.csproj": {
+    "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Movies\\Movies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\Movies\\Movies.csproj",
+        "projectUniqueName": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Movies\\Movies.csproj",
         "projectName": "Movies",
-        "projectPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\Movies\\Movies.csproj",
+        "projectPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Movies\\Movies.csproj",
         "packagesPath": "C:\\Users\\Maxim Sidorenko\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\Movies\\obj\\",
+        "outputPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Movies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,30 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
