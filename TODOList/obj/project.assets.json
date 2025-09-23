@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ADO.NET\\IntroToBlazor\\TODOList\\TODOList.csproj",
+      "projectUniqueName": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\TODOList\\TODOList.csproj",
       "projectName": "TODOList",
-      "projectPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ADO.NET\\IntroToBlazor\\TODOList\\TODOList.csproj",
+      "projectPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\TODOList\\TODOList.csproj",
       "packagesPath": "C:\\Users\\Maxim Sidorenko\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ADO.NET\\IntroToBlazor\\TODOList\\obj\\",
+      "outputPath": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\TODOList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
