@@ -1,0 +1,61 @@
+﻿@rendermode InteractiveServer
+@page "/Hex2Dec"
+<h3>Hex2Dec</h3>
+<input type="text" @bind="hex">
+<button @onclick="HexToDec">ClickME</button>
+@dec
+
+
+
+@code {
+    string hex = "";
+    double dec = 0;
+
+    void HexToDec()
+    {
+        dec = 0;
+        string tempHex = hex;
+        for (int i =  tempHex.Length - 1; i >= 0; i--)
+        {
+            switch (tempHex[i])
+            {
+                case 'A':
+                    {
+                        dec += 10 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                case 'B':
+                    {
+                        dec += 11 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                case 'C':
+                    {
+                        dec += 12 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                case 'D':
+                    {
+                        dec += 13 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                case 'E':
+                    {
+                        dec += 14 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                case 'F':
+                    {
+                        dec += 15 * Math.Pow(16, tempHex.Length - 1 - i);
+                    }
+                    break;
+                default:
+                    {
+                        dec += (tempHex[i] - '0') * Math.Pow(16, tempHex.Length - 1 -i);
+                    }break;
+            }
+        }
+        hex = tempHex;
+    }
+
+}

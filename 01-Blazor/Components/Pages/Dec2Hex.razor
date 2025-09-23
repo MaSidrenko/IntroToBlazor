@@ -1,0 +1,65 @@
+﻿@rendermode InteractiveServer
+@page "/Dec2Hex"
+<h3>Dec2Hex</h3>
+<input type="number" @bind="dec">
+<button @onclick="DecToHex">ClickME</button>
+@hex
+
+@code {
+    string hex = "";
+    int dec = 200;
+    void DecToHex()
+    {
+        hex = "";
+        int tempDec = dec;
+        for (int i = 0, tempHex = dec % 16; i < dec; dec /= 16, tempHex = dec % 16)
+        {
+            if (tempHex >= 10)
+            {
+                switch (tempHex)
+                {
+                    case 10:
+                        {
+                            hex += "A";
+                        }
+                        break;
+                    case 11:
+                        {
+                            hex += "B";
+                        }
+                        break;
+                    case 12:
+                        {
+                            hex += "C";
+                        }
+                        break;
+                    case 13:
+                        {
+                            hex += "D";
+                        }
+                        break;
+                    case 14:
+                        {
+                            hex += "E";
+                        }
+                        break;
+                    case 15:
+                        {
+                            hex += "F";
+                        }
+                        break;
+                }
+            }
+            else
+            {
+                hex += tempHex;
+            }
+        }
+        dec = tempDec;
+        hex = Revrese(hex);
+    }
+    string Revrese(string input)
+    {
+        return new string(input.Reverse().ToArray());
+    }
+}

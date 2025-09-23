@@ -1,0 +1,28 @@
+﻿@using System.ComponentModel.DataAnnotations.Schema
+@page "/Dec2Bin"
+@rendermode InteractiveServer
+<h3>Dec2Bin</h3>
+
+<button @onclick="DecToBin">ClickME</button>
+<input type="number" @bind="dec">
+<br>
+@for(int i = bin.Count(); i > 0; i--)
+{
+
+    <label>@bin[i - 1]</label>
+}
+
+@code {
+    int dec = 0;
+    List<int> bin = new();
+    void DecToBin()
+    {
+        bin = new();
+        int tempDec = dec;
+        for( int i = 0, tempBin = dec % 2; i < dec; dec /= 2, tempBin = dec % 2)
+        {
+            bin.Add(tempBin);
+        }
+        dec = tempDec;
+    }
+}
