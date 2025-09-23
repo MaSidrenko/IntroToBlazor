@@ -19,7 +19,7 @@
     {
         bin = new();
         int tempDec = dec;
-        for( int i = 0, tempBin = dec % 2; i < dec; dec /= 2, tempBin = dec % 2)
+        for(int i = 0, tempBin = dec % 2; i < dec; dec /= 2, tempBin = dec % 2)
         {
             bin.Add(tempBin);
         }
