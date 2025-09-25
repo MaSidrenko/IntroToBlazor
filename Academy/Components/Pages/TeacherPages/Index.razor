@@ -1,0 +1,45 @@
+@page "/teachers"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Academy.Models
+@using Academy.Models
+@implements IAsyncDisposable
+@inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
+@rendermode InteractiveServer
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="teachers/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Teachers">
+    <PropertyColumn Sortable="true" Title="Фамилия" Property="teacher => teacher.LastName" />
+    <PropertyColumn Sortable="true" Title="Имя" Property="teacher => teacher.FirstName" />
+    <PropertyColumn Sortable="true" Title="Отчество" Property="teacher => teacher.MiddleName" />
+    <PropertyColumn Sortable="true" Title="Дата рождения" Property="teacher => teacher.BirthDate" />
+    <PropertyColumn Sortable="true" Title="E-mail" Property="teacher => teacher.Email" />
+    <PropertyColumn Sortable="true" Title="Телефон" Property="teacher => teacher.Phone" />
+    @* <PropertyColumn Sortable="true" Title="" Property="teacher => teacher.Photo" /> *@
+    <PropertyColumn Sortable="true" Title="Работает с" Property="teacher => teacher.WorkSince" />
+    <PropertyColumn Sortable="true" Title="Ставка за прау" Property="teacher => teacher.Rate" />
+
+    <TemplateColumn Context="teacher">
+        <a href="@($"teachers/edit?teacherid={teacher.TeacherId}")">Edit</a> |
+        <a href="@($"teachers/details?teacherid={teacher.TeacherId}")">Details</a> |
+        <a href="@($"teachers/delete?teacherid={teacher.TeacherId}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private Pv319ImportContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

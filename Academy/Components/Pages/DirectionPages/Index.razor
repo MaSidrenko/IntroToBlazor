@@ -15,12 +15,12 @@
 </p>
 
 <QuickGrid Class="table" Items="context.Directions">
-    <PropertyColumn Property="direction => direction.DirectionName" />
+    <PropertyColumn Property="direction => direction.direction_name" />
 
     <TemplateColumn Context="direction">
-        <a href="@($"directions/edit?directionid={direction.DirectionId}")">Edit</a> |
-        <a href="@($"directions/details?directionid={direction.DirectionId}")">Details</a> |
-        <a href="@($"directions/delete?directionid={direction.DirectionId}")">Delete</a>
+        <a href="@($"directions/edit?direction_id={direction.direction_id}")">Edit</a> |
+        <a href="@($"directions/details?direction_id={direction.direction_id}")">Details</a> |
+        <a href="@($"directions/delete?direction_id={direction.direction_id}")">Delete</a>
     </TemplateColumn>
 </QuickGrid>
 

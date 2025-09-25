@@ -12,13 +12,13 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <EditForm method="post" Model="Direction" OnValidSubmit="AddDirection" FormName="create" Enhance>
+        <EditForm method="post" Model="direction" OnValidSubmit="AddDirection" FormName="create" Enhance>
             <DataAnnotationsValidator />
             <ValidationSummary class="text-danger" role="alert"/>
             <div class="mb-3">
-                <label for="directionname" class="form-label">DirectionName:</label> 
-                <InputText id="directionname" @bind-Value="Direction.DirectionName" class="form-control" /> 
-                <ValidationMessage For="() => Direction.DirectionName" class="text-danger" /> 
+                <label for="direction_name" class="form-label">direction_name:</label> 
+                <InputText id="direction_name" @bind-Value="direction.direction_name" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => direction.direction_name" class="text-danger" /> 
             </div>        
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
@@ -31,13 +31,13 @@
 
 @code {
     [SupplyParameterFromForm]
-    private Direction Direction { get; set; } = new();
+    private Direction direction { get; set; } = new();
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddDirection()
     {
         using var context = DbFactory.CreateDbContext();
-        context.Directions.Add(Direction);
+        context.Directions.Add(direction);
         await context.SaveChangesAsync();
         NavigationManager.NavigateTo("/directions");
     }

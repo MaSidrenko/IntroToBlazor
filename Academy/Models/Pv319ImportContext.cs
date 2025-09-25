@@ -83,8 +83,8 @@ public partial class Pv319ImportContext : DbContext
 
         modelBuilder.Entity<Direction>(entity =>
         {
-            entity.Property(e => e.DirectionId).HasColumnName("direction_id");
-            entity.Property(e => e.DirectionName)
+            entity.Property(e => e.direction_id).HasColumnName("direction_id");
+            entity.Property(e => e.direction_name)
                 .HasMaxLength(50)
                 .HasColumnName("direction_name");
 
