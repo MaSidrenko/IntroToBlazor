@@ -329,5 +329,5 @@ E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\bin\Debu
 E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\bin\Debug\net9.0\Microsoft.JSInterop.dll
 E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\unlu0xluo6-eu7w3d5g1a.gz
 E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\3gin1ph7ub-25o87uqmvr.gz
-E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\dwmroevl7g-tqyax983ag.gz
-E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\oyja6zhu7i-4644109by4.gz
+E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\dwmroevl7g-0atq5mux1b.gz
+E:\Users\Maxim Sidorenko\sourceVS\.NET\C#\ASP.NET\IntroToBlazor\Academy\obj\Debug\net9.0\compressed\oyja6zhu7i-twg02rl06c.gz

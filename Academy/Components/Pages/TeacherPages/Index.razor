@@ -16,17 +16,17 @@
 </p>
 
 <QuickGrid Class="table" Items="context.Teachers" Pagination="pagination">
-    <PropertyColumn Property="teacher => teacher.LastName" />
-    <PropertyColumn Property="teacher => teacher.FirstName" />
-    <PropertyColumn Property="teacher => teacher.MiddleName" />
-    <PropertyColumn Property="teacher => teacher.Age" />
-    <PropertyColumn Property="teacher => teacher.BirthDate" />
-    <PropertyColumn Property="teacher => teacher.Email" />
-    <PropertyColumn Property="teacher => teacher.Phone" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.LastName" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.FirstName" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.MiddleName" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.Age" /> 
+    <PropertyColumn Sortable="true" Property="teacher => teacher.BirthDate" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.Email" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.Phone" />
     @* <PropertyColumn Property="teacher => teacher.Photo" /> *@
-    <PropertyColumn Property="teacher => teacher.Working" />
-    <PropertyColumn Property="teacher => teacher.WorkSince" />
-    <PropertyColumn Property="teacher => teacher.Rate" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.Working" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.WorkSince" />
+    <PropertyColumn Sortable="true" Property="teacher => teacher.Rate" />
 
     <TemplateColumn Context="teacher">
         <a href="@($"teachers/edit?teacherid={teacher.TeacherId}")">Edit</a> |

@@ -3,13 +3,182 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Academy.0atq5mux1b.styles.css",
+      "AssetFile": "Academy.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000529380625"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0atq5mux1b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs="
+        },
+        {
+          "Name": "label",
+          "Value": "Academy.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Academy.0atq5mux1b.styles.css",
+      "AssetFile": "Academy.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0atq5mux1b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs="
+        },
+        {
+          "Name": "label",
+          "Value": "Academy.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Academy.0atq5mux1b.styles.css.gz",
+      "AssetFile": "Academy.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0atq5mux1b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4="
+        },
+        {
+          "Name": "label",
+          "Value": "Academy.styles.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "Academy.styles.css",
       "AssetFile": "Academy.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000517866390"
+          "Quality": "0.000529380625"
         }
       ],
       "ResponseHeaders": [
@@ -27,7 +196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1930"
+          "Value": "1888"
         },
         {
           "Name": "Content-Type",
@@ -35,15 +204,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
+          "Value": "\"U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
+          "Value": "W/\"uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
         },
         {
           "Name": "Link",
@@ -57,7 +226,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
+          "Value": "sha256-uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs="
         }
       ]
     },
@@ -76,7 +245,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6317"
+          "Value": "6234"
         },
         {
           "Name": "Content-Type",
@@ -84,11 +253,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
+          "Value": "\"uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
         },
         {
           "Name": "Link",
@@ -98,7 +267,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
+          "Value": "sha256-uHMUnc7hgLQPcV+HhpkSgA6TqZFr9xA3c4WxrU3vMqs="
         }
       ]
     },
@@ -121,7 +290,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1930"
+          "Value": "1888"
         },
         {
           "Name": "Content-Type",
@@ -129,11 +298,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
+          "Value": "\"U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+          "Value": "Sat, 27 Sep 2025 15:40:17 GMT"
         },
         {
           "Name": "Vary",
@@ -143,176 +312,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.tqyax983ag.styles.css",
-      "AssetFile": "Academy.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000517866390"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1930"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tqyax983ag"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
-        },
-        {
-          "Name": "label",
-          "Value": "Academy.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "Academy.tqyax983ag.styles.css",
-      "AssetFile": "Academy.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6317"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tqyax983ag"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
-        },
-        {
-          "Name": "label",
-          "Value": "Academy.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "Academy.tqyax983ag.styles.css.gz",
-      "AssetFile": "Academy.styles.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1930"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tqyax983ag"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs="
-        },
-        {
-          "Name": "label",
-          "Value": "Academy.styles.css.gz"
+          "Value": "sha256-U4hzojR6glljclCGqJ8sS0ZftUFbIKUx4rOoSwKkz/4="
         }
       ]
     },

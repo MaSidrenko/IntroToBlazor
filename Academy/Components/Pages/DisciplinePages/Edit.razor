@@ -1,6 +1,7 @@
 @page "/disciplines/edit"
 @using Microsoft.EntityFrameworkCore
 @using Academy.Models
+@using System.ComponentModel
 @inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
 @inject NavigationManager NavigationManager
 
@@ -44,6 +45,7 @@ else
 
 @code {
     [SupplyParameterFromQuery(Name = "disciplineid")]
+    
     private int? DisciplineId { get; set; }
 
     [SupplyParameterFromForm]
