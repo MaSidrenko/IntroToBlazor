@@ -1,0 +1,68 @@
+@page "/disciplines/details"
+@using Microsoft.EntityFrameworkCore
+@using Academy.Models
+@using NuGet.Packaging
+@inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Discipline</h2>
+    <hr />
+    @if (discipline is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">DisciplineName</dt>
+            <dd class="col-sm-10">@discipline.DisciplineName</dd>
+            <dt class="col-sm-2">NumberOfLessons</dt>
+            <dd class="col-sm-10">@discipline.NumberOfLessons</dd>
+        </dl>
+        <div>
+            <a href="@($"/disciplines/edit?disciplineid={discipline.DisciplineId}")">Edit</a> |
+            <a href="@($"/disciplines")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Discipline? discipline;
+
+    [SupplyParameterFromQuery(Name = "disciplineid")]
+    public string? DisciplineIdRaw {get; set;}
+    private short DisciplineId { get; set; }
+
+    @* protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        discipline = await context.Disciplines.FirstOrDefaultAsync(m => m.DisciplineId == DisciplineId);
+
+        if (discipline is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    } *@
+    protected override async Task OnParametersSetAsync()
+    {
+        if(!short.TryParse(DisciplineIdRaw, out short parsed))
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        }
+
+        DisciplineId = parsed;
+
+        using Pv319ImportContext? context = DbFactory.CreateDbContext();
+
+        discipline = await context.Disciplines.FirstOrDefaultAsync(_ => _.DisciplineId == DisciplineId);
+        if(discipline is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}
