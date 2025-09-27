@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g8vPV9M7tdBF6ui7kpV/7W4jUr9JgJQZJiKbjGCpuqA=",
+  "Hash": "o71vfI8Lp4RIuO+DE3ALTknecZ8RsNL6nJwoPv2RscE=",
   "Source": "Academy",
   "BasePath": "_content/Academy",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-x82dx58s5o.gz",
+      "Identity": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-tqyax983ag.gz",
       "SourceId": "Academy",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Academy",
-      "RelativePath": "Academy#[.{fingerprint=x82dx58s5o}]?.styles.css.gz",
+      "RelativePath": "Academy#[.{fingerprint=tqyax983ag}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8et4507j2m",
-      "Integrity": "MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A=",
+      "Fingerprint": "0in2bd1537",
+      "Integrity": "iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css"
@@ -794,12 +794,12 @@
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\wwwroot\\app.css"
     },
     {
-      "Identity": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-wdhkbkndtj.gz",
+      "Identity": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-4644109by4.gz",
       "SourceId": "Academy",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Academy",
-      "RelativePath": "Academy#[.{fingerprint=wdhkbkndtj}]!.bundle.scp.css.gz",
+      "RelativePath": "Academy#[.{fingerprint=4644109by4}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -808,8 +808,8 @@
       "RelatedAsset": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lvmanzz54r",
-      "Integrity": "rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI=",
+      "Fingerprint": "h3b6174io7",
+      "Integrity": "rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css"
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "x82dx58s5o",
-      "Integrity": "Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM=",
+      "Fingerprint": "tqyax983ag",
+      "Integrity": "ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css"
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "wdhkbkndtj",
-      "Integrity": "BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg=",
+      "Fingerprint": "4644109by4",
+      "Integrity": "5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css"
@@ -2425,13 +2425,13 @@
       ]
     },
     {
-      "Route": "Academy.bundle.scp.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-wdhkbkndtj.gz",
+      "Route": "Academy.4644109by4.bundle.scp.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-4644109by4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000562746201"
+          "Quality": "0.000532765051"
         }
       ],
       "ResponseHeaders": [
@@ -2441,19 +2441,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1776"
+          "Value": "1876"
         },
         {
           "Name": "ETag",
-          "Value": "\"rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI=\""
+          "Value": "\"rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2469,18 +2469,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg=\""
+          "Value": "W/\"5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4644109by4"
+        },
+        {
+          "Name": "label",
+          "Value": "Academy.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg="
+          "Value": "sha256-5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E="
         }
       ]
     },
     {
-      "Route": "Academy.bundle.scp.css",
+      "Route": "Academy.4644109by4.bundle.scp.css",
       "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2490,7 +2498,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5961"
+          "Value": "6184"
         },
         {
           "Name": "Content-Type",
@@ -2498,266 +2506,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg=\""
+          "Value": "\"5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.bundle.scp.css.gz",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-wdhkbkndtj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1776"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.styles.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-x82dx58s5o.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000546149645"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1830"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.styles.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.styles.css.gz",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-x82dx58s5o.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1830"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.wdhkbkndtj.bundle.scp.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-wdhkbkndtj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000562746201"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1776"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wdhkbkndtj"
+          "Value": "4644109by4"
         },
         {
           "Name": "label",
@@ -2765,13 +2528,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg="
+          "Value": "sha256-5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E="
         }
       ]
     },
     {
-      "Route": "Academy.wdhkbkndtj.bundle.scp.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css",
+      "Route": "Academy.4644109by4.bundle.scp.css.gz",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-4644109by4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2780,7 +2543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5961"
+          "Value": "1876"
         },
         {
           "Name": "Content-Type",
@@ -2788,56 +2551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg=\""
+          "Value": "\"rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wdhkbkndtj"
-        },
-        {
-          "Name": "label",
-          "Value": "Academy.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BABaHC8clGElo7rVRIZb5u4lsb3rmk+zvncerMdwnHg="
-        }
-      ]
-    },
-    {
-      "Route": "Academy.wdhkbkndtj.bundle.scp.css.gz",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-wdhkbkndtj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1776"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 15:37:36 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2855,7 +2573,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wdhkbkndtj"
+          "Value": "4644109by4"
         },
         {
           "Name": "label",
@@ -2863,18 +2581,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rxqgDZ/aFXDsYqaSQg0Q74AvtlPC5JoDhptXjQSz+zI="
+          "Value": "sha256-rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM="
         }
       ]
     },
     {
-      "Route": "Academy.x82dx58s5o.styles.css",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-x82dx58s5o.gz",
+      "Route": "Academy.bundle.scp.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-4644109by4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000546149645"
+          "Quality": "0.000532765051"
         }
       ],
       "ResponseHeaders": [
@@ -2884,15 +2602,297 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1830"
+          "Value": "1876"
         },
         {
           "Name": "ETag",
-          "Value": "\"MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A=\""
+          "Value": "\"rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.bundle.scp.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Academy.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5CC9npzXdQal+uWB4pdvOvCvfRyCYBHsqw2tNTZP+6E="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.bundle.scp.css.gz",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\oyja6zhu7i-4644109by4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rVpZyxGRT4QEoBNF4vJ9lhTQBAzBm3flIWeGmtHO2rM="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.styles.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-tqyax983ag.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000517866390"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.styles.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.styles.css.gz",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-tqyax983ag.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs="
+        }
+      ]
+    },
+    {
+      "Route": "Academy.tqyax983ag.styles.css",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-tqyax983ag.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000517866390"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2912,7 +2912,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM=\""
+          "Value": "W/\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
         },
         {
           "Name": "Link",
@@ -2922,11 +2922,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x82dx58s5o"
+          "Value": "tqyax983ag"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM="
+          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
         },
         {
           "Name": "label",
@@ -2935,7 +2935,7 @@
       ]
     },
     {
-      "Route": "Academy.x82dx58s5o.styles.css",
+      "Route": "Academy.tqyax983ag.styles.css",
       "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Academy.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2949,7 +2949,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6094"
+          "Value": "6317"
         },
         {
           "Name": "Content-Type",
@@ -2957,11 +2957,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM=\""
+          "Value": "\"ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Link",
@@ -2971,11 +2971,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x82dx58s5o"
+          "Value": "tqyax983ag"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xz4X3cBC87LlVecgoIxwCRgal/vV5aDck3e7APMaIVM="
+          "Value": "sha256-ZZOyRRC7K5pk6/zFUsR45e7RuRPNc5d3fmXqVC3oMKQ="
         },
         {
           "Name": "label",
@@ -2984,8 +2984,8 @@
       ]
     },
     {
-      "Route": "Academy.x82dx58s5o.styles.css.gz",
-      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-x82dx58s5o.gz",
+      "Route": "Academy.tqyax983ag.styles.css.gz",
+      "AssetFile": "E:\\Users\\Maxim Sidorenko\\sourceVS\\.NET\\C#\\ASP.NET\\IntroToBlazor\\Academy\\obj\\Debug\\net9.0\\compressed\\dwmroevl7g-tqyax983ag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2994,7 +2994,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1830"
+          "Value": "1930"
         },
         {
           "Name": "Content-Type",
@@ -3002,11 +3002,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A=\""
+          "Value": "\"iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Sep 2025 18:35:43 GMT"
+          "Value": "Sat, 27 Sep 2025 15:24:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3024,7 +3024,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x82dx58s5o"
+          "Value": "tqyax983ag"
         },
         {
           "Name": "label",
@@ -3032,7 +3032,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MD0aXQv2v8Kk0xA2/nQ6GfrOy3ZqKtzv2ziBzhPH92A="
+          "Value": "sha256-iI2UG2UWOPrLAQkOEPJ3p2vT+A3bMNCa0UiLvfo0+Hs="
         }
       ]
     },
