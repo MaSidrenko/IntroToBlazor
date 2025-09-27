@@ -4,6 +4,7 @@
 @using Academy.Models
 @using Academy.Models
 @implements IAsyncDisposable
+@rendermode InteractiveServer
 @inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
 
 <PageTitle>Index</PageTitle>
@@ -14,7 +15,7 @@
     <a href="students/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Students">
+<QuickGrid Class="table" Items="context.Students" Pagination="pagination">
     <PropertyColumn Property="students => students.LastName" />
     <PropertyColumn Property="students => students.FirstName" />
     <PropertyColumn Property="students => students.MiddleName" />
@@ -30,8 +31,10 @@
         <a href="@($"students/delete?studid={students.StudId}")">Delete</a>
     </TemplateColumn>
 </QuickGrid>
+<Paginator State="pagination"/>
 
 @code {
+    PaginationState pagination = new PaginationState { ItemsPerPage = 6 };
     private Pv319ImportContext context = default!;
 
     protected override void OnInitialized()

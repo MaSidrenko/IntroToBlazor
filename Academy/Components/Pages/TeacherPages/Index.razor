@@ -4,6 +4,7 @@
 @using Academy.Models
 @using Academy.Models
 @implements IAsyncDisposable
+@rendermode InteractiveServer
 @inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
 
 <PageTitle>Index</PageTitle>
@@ -14,12 +15,12 @@
     <a href="teachers/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Teachers">
+<QuickGrid Class="table" Items="context.Teachers" Pagination="pagination">
     <PropertyColumn Property="teacher => teacher.LastName" />
     <PropertyColumn Property="teacher => teacher.FirstName" />
     <PropertyColumn Property="teacher => teacher.MiddleName" />
     <PropertyColumn Property="teacher => teacher.Age" />
-    <PropertyColumn Property="teacher => teacher.BirthDate"/>
+    <PropertyColumn Property="teacher => teacher.BirthDate" />
     <PropertyColumn Property="teacher => teacher.Email" />
     <PropertyColumn Property="teacher => teacher.Phone" />
     @* <PropertyColumn Property="teacher => teacher.Photo" /> *@
@@ -33,25 +34,17 @@
         <a href="@($"teachers/delete?teacherid={teacher.TeacherId}")">Delete</a>
     </TemplateColumn>
 </QuickGrid>
+<Paginator State="pagination"/>
 
 @code {
-    List<DateOnly?> Years;
-private Pv319ImportContext context = default!;
+    @* Pagination: *@
+    PaginationState pagination = new PaginationState { ItemsPerPage = 3 };
+    private Pv319ImportContext context = default!;
 
     protected override void OnInitialized()
     {
         context = DbFactory.CreateDbContext();
     }
-void SetYears()
-{
-    @* List<DateOnly?> Years = context.Teachers.Select(_ => _.BirthDate).ToList(); *@
-    DateOnly? Now = DateOnly.FromDateTime(DateTime.Now);
-    DateOnly Year;
-    for(int i = 0; i < Years.Count(); i++)
-    {
-        @* Year = context.Teachers.Select(_ => _.BirthDate).Index() - Now; *@
-        @* Years.IndexOf(context.Teachers.Select(_ => _.BirthDate) - Now ,i); *@
-    }
-}
-public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }
