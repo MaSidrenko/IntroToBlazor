@@ -1,0 +1,197 @@
+@page "/teachers/edit"
+@using Microsoft.EntityFrameworkCore
+@using Academy.Models
+@using System.Security.Cryptography.Pkcs
+@using System.Runtime.InteropServices
+@inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Edit</h1>
+
+<h2>Teacher</h2>
+<hr />
+@if (teacher is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            @* *@
+            <EditForm method="post" Model="teacher" OnValidSubmit="UpdateTeacher" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert" />
+                <input type="hidden" name="Teacher.TeacherId" value="@teacher.TeacherId" />
+                <div class="mb-3">
+                    <label for="lastname" class="form-label">LastName:</label>
+                    <InputText id="lastname" @bind-Value="teacher.LastName" class="form-control" />
+                    <ValidationMessage For="() => teacher.LastName" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="firstname" class="form-label">FirstName:</label>
+                    <InputText id="firstname" @bind-Value="teacher.FirstName" class="form-control" />
+                    <ValidationMessage For="() => teacher.FirstName" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="middlename" class="form-label">MiddleName:</label>
+                    <InputText id="middlename" @bind-Value="teacher.MiddleName" class="form-control" />
+                    <ValidationMessage For="() => teacher.MiddleName" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="birthdate" class="form-label">BirthDate:</label>
+                    <InputDate id="birthdate" @bind-Value="teacher.BirthDate" class="form-control" />
+                    <ValidationMessage For="() => teacher.BirthDate" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <InputText id="email" @bind-Value="teacher.Email" class="form-control" />
+                    <ValidationMessage For="() => teacher.Email" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone:</label>
+                    <InputText id="phone" @bind-Value="teacher.Phone" class="form-control" />
+                    <ValidationMessage For="() => teacher.Phone" class="text-danger" />
+                </div>
+                @* <div class="mb-3">
+                    <label for="photo" class="form-label">Photo:</label>
+                    <InputText id="photo" @bind-Value="Teacher.Photo" class="form-control" />
+                    <ValidationMessage For="() => Teacher.Photo" class="text-danger" />
+                </div> *@
+                <div class="mb-3">
+                    <label for="worksince" class="form-label">WorkSince:</label>
+                    <InputDate id="worksince" @bind-Value="teacher.WorkSince" class="form-control" />
+                    <ValidationMessage For="() => teacher.WorkSince" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="rate" class="form-label">Rate:</label>
+                    <InputNumber id="rate" @bind-Value="teacher.Rate" class="form-control" />
+                    <ValidationMessage For="() => teacher.Rate" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/teachers">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromQuery(Name = "teacherid")]
+    public string? TeacherIdRaw { get; set; }
+    [SupplyParameterFromQuery(Name = "teacherid")]
+    private int? TeacherId { get; set; }
+    @* private Pv319ImportContext? context; *@
+    @* private EditContext? editContext; *@
+
+    [SupplyParameterFromForm]
+    private Teacher? teacher { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        teacher ??= await context.Teachers.FirstOrDefaultAsync(m => m.TeacherId
+        == TeacherId);
+
+        if (teacher is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+        @* if(!short.TryParse(TeacherIdRaw, out short parsed))
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        }
+        TeacherId = parsed;
+        using Pv319ImportContext? context = DbFactory.CreateDbContext();
+        teacher = await context.Teachers.FirstOrDefaultAsync(_ => _.TeacherId == TeacherId);
+         Console.WriteLine("===========================================================================");
+        Console.WriteLine($"Teacher OnParameterSet - {teacher.Email}");
+        Console.WriteLine($"TeacherIdRaw OnParameterSet - {TeacherIdRaw}");
+        Console.WriteLine($"parsed OnParameterSet - {parsed}");
+        Console.WriteLine($"TeacherId OnParameterSet - {TeacherId}");
+        Console.WriteLine("===========================================================================");
+
+        if (teacher is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        } *@
+    }
+    @* protected override async Task OnParametersSetAsync()
+    {
+        if (!short.TryParse(TeacherIdRaw, out short parsed))
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        }
+        TeacherId = parsed;
+
+        using Pv319ImportContext? context = DbFactory.CreateDbContext();
+        teacher = await context.Teachers
+        .FirstOrDefaultAsync(_ => _.TeacherId == TeacherId);
+
+        Console.WriteLine("===========================================================================");
+        Console.WriteLine($"Teacher OnParameterSet - {teacher.Email}");
+        Console.WriteLine("===========================================================================");
+        if (teacher is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+
+    } *@
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task UpdateTeacher()
+    {
+        @* Console.WriteLine("===========================================================================");
+        Console.WriteLine($"\nTeacher Update - {teacher.Email}\n");
+         Console.WriteLine("===========================================================================");
+        using Pv319ImportContext? context = DbFactory.CreateDbContext();
+        Teacher? teacherInDb = await context.Teachers.FirstOrDefaultAsync(_ => _.TeacherId == TeacherId);
+        if(teacherInDb is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+            return;
+        }
+
+        context.Entry(teacherInDb).CurrentValues.SetValues(teacher!);
+
+        context.Entry(teacherInDb).Property(_ => _.Photo).IsModified = false;
+        await context.SaveChangesAsync(); *@
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(teacher!).State = EntityState.Modified;
+        try
+        {
+            await context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!TeacherExists(teacher!.TeacherId))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+        @* Console.WriteLine("===========================================================================");
+        Console.WriteLine($"Teacher Update - {teacher.Email}");
+        Console.WriteLine($"TeacherIdRaw Update- {TeacherIdRaw}");
+        Console.WriteLine($"TeacherId Update - {TeacherId}");
+        Console.WriteLine("==========================================================================="); *@
+        NavigationManager.NavigateTo("/teachers");
+    }
+
+    private bool TeacherExists(short teacherid)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Teachers.Any(e => e.TeacherId == teacherid);
+    }
+}

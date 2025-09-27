@@ -13,15 +13,23 @@ public partial class Teacher
 
     public string? MiddleName { get; set; }
 
-    public DateOnly? BirthDate { get; set; }
-
+    public DateOnly BirthDate { get; set; }
+    public int Age =>
+    (DateOnly.FromDateTime(DateTime.Now).Year - BirthDate.Year) -
+    (DateOnly.FromDateTime(DateTime.Now) < BirthDate.AddYears(
+        DateOnly.FromDateTime(DateTime.Now).Year - BirthDate.Year) ? 1 : 0
+    );
     public string? Email { get; set; }
 
     public string? Phone { get; set; }
 
     public byte[]? Photo { get; set; }
 
-    public DateOnly? WorkSince { get; set; }
+    public DateOnly WorkSince { get; set; }
+    public int Working => (DateOnly.FromDateTime(DateTime.Now).Year - WorkSince.Year) -
+        (DateOnly.FromDateTime(DateTime.Now) < WorkSince.AddYears(
+            DateOnly.FromDateTime(DateTime.Now).Year - WorkSince.Year) ? 1 : 0
+        );
 
     public decimal? Rate { get; set; }
 

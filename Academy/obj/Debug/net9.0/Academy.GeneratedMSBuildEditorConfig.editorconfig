@@ -64,6 +64,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/StudentsPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50c1BhZ2VzXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/StudentsPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50c1BhZ2VzXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/StudentsPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50c1BhZ2VzXERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/StudentsPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50c1BhZ2VzXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/StudentsPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdHVkZW50c1BhZ2VzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/TeacherPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/TeacherPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/TeacherPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/TeacherPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/TeacherPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVyUGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Users/Maxim Sidorenko/sourceVS/.NET/C\#/ASP.NET/IntroToBlazor/Academy/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

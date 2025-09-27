@@ -1,0 +1,57 @@
+@page "/teachers"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Academy.Models
+@using Academy.Models
+@implements IAsyncDisposable
+@inject IDbContextFactory<Academy.Models.Pv319ImportContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="teachers/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Teachers">
+    <PropertyColumn Property="teacher => teacher.LastName" />
+    <PropertyColumn Property="teacher => teacher.FirstName" />
+    <PropertyColumn Property="teacher => teacher.MiddleName" />
+    <PropertyColumn Property="teacher => teacher.Age" />
+    <PropertyColumn Property="teacher => teacher.BirthDate"/>
+    <PropertyColumn Property="teacher => teacher.Email" />
+    <PropertyColumn Property="teacher => teacher.Phone" />
+    @* <PropertyColumn Property="teacher => teacher.Photo" /> *@
+    <PropertyColumn Property="teacher => teacher.Working" />
+    <PropertyColumn Property="teacher => teacher.WorkSince" />
+    <PropertyColumn Property="teacher => teacher.Rate" />
+
+    <TemplateColumn Context="teacher">
+        <a href="@($"teachers/edit?teacherid={teacher.TeacherId}")">Edit</a> |
+        <a href="@($"teachers/details?teacherid={teacher.TeacherId}")">Details</a> |
+        <a href="@($"teachers/delete?teacherid={teacher.TeacherId}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    List<DateOnly?> Years;
+private Pv319ImportContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+void SetYears()
+{
+    @* List<DateOnly?> Years = context.Teachers.Select(_ => _.BirthDate).ToList(); *@
+    DateOnly? Now = DateOnly.FromDateTime(DateTime.Now);
+    DateOnly Year;
+    for(int i = 0; i < Years.Count(); i++)
+    {
+        @* Year = context.Teachers.Select(_ => _.BirthDate).Index() - Now; *@
+        @* Years.IndexOf(context.Teachers.Select(_ => _.BirthDate) - Now ,i); *@
+    }
+}
+public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}
